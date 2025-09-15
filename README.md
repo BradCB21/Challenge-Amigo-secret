@@ -3,9 +3,10 @@ Proyecto desarrollado en HTML, CSS y JavaScript que permite agregar amigos, real
 
 amigo-secreto/
 │
-├── index.html       # Archivo principal HTML
-├── style.css        # Estilos del proyecto
-├── app.js           # Lógica de JavaScript
+index.html       # Archivo principal HTML
+style.css        # Estilos del proyecto
+app.js           # Lógica de JavaScript
+
 └── assets/          # Imágenes y recursos del proyecto
     ├── amigo-secreto.png
     └── play_circle_outline.png
