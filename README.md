@@ -1,12 +1,15 @@
-# Challenge-Amigo-secret
+<h1> Challenge-Amigo-secret </h1>
 Proyecto desarrollado en HTML, CSS y JavaScript que permite agregar amigos, realizar un sorteo aleatorio y reiniciar el juego. Ideal para practicar lógica de programación y manipulación del DOM en JavaScript.
+## 📌 Descripción
 
-amigo-secreto/
-│
-index.html       # Archivo principal HTML
-style.css        # Estilos del proyecto
-app.js           # Lógica de JavaScript
+Este proyecto permite:
+- Agregar los nombres de tus amigos.
+- Sortear aleatoriamente a quién le toca regalar a quién.
+- Reiniciar el sorteo fácilmente.
 
-└── assets/          # Imágenes y recursos del proyecto
-    ├── amigo-secreto.png
-    └── play_circle_outline.png
+El proyecto está construido con **HTML, CSS y JavaScript**. tiene la siguiente estructura
+- index.html       # Archivo principal HTML
+- style.css        # Estilos del proyecto
+- app.js           # Lógica de JavaScript
+- assets           # Imágenes y recursos del proyecto
+
