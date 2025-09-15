@@ -23,7 +23,6 @@ function Limpiaramigo() {
     // Volver a enfocarlo
     input.focus();
 }
-
 // Función para actualizar la lista de amigos en pantalla
 function actualizarLista() {
     const lista = document.getElementById("listaAmigos");
@@ -35,14 +34,12 @@ function actualizarLista() {
         lista.appendChild(li);
     });
 }
-
 // Función para realizar el sorteo de un amigo al azar
 function sortearAmigo() {
     if (amigos.length === 0) {
         alert("No hay amigos en la lista para sortear.");
         return;
     }
-
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
     const ganador = amigos[indiceAleatorio];
 
@@ -55,7 +52,6 @@ function sortearAmigo() {
 }
 
 function reiniciarJuego() {
-    // Vaciar el array de amigos
     amigos = [];
     Limpiarjuego();
    
